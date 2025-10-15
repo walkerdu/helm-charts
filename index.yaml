@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   wecom-read-it-later:
   - apiVersion: v2
+    appVersion: 0.0.0-master.549eacec
+    created: "2025-10-15T04:36:56.693333856Z"
+    description: A Helm chart for Kubernetes
+    digest: 5c29e54438d337fa18d4ae3124b17a9cd11f3d8e7a9eade4baef76a0ac545cb8
+    name: wecom-read-it-later
+    type: application
+    urls:
+    - https://github.com/walkerdu/helm-charts/releases/download/wecom-read-it-later-0.0.0-master.549eacec/wecom-read-it-later-0.0.0-master.549eacec.tgz
+    version: 0.0.0-master.549eacec
+  - apiVersion: v2
     appVersion: 0.0.0-master.a45b36c0
     created: "2025-10-15T04:25:59.579410915Z"
     description: A Helm chart for Kubernetes
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/walkerdu/helm-charts/releases/download/wecom-read-it-later-0.0.0-master/wecom-read-it-later-0.0.0-master.tgz
     version: 0.0.0-master
-generated: "2025-10-15T04:25:59.579417758Z"
+generated: "2025-10-15T04:36:56.693344081Z"
