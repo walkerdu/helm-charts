@@ -25,4 +25,4 @@ jobs:
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.7.0
         env:
-          CR_TOKEN: "${{ secrets.WALKERDU_REPO_ALL_PAT }}"
+          CR_TOKEN: "${{ secrets.WALKERDU_REPO_PAT }}"
