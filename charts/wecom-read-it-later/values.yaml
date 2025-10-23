@@ -55,7 +55,8 @@ service:
   port: 10001
   annotations: 
     # 外网clb
-    service.kubernetes.io/tke-existed-lbid: lb-b0etqk0h
+    #service.kubernetes.io/tke-existed-lbid: lb-b0etqk0h
+    service.kubernetes.io/tke-existed-lbid: lb-nedaprnh 
 
 ingress:
   enabled: false
