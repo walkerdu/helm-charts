@@ -23,9 +23,9 @@ wecom:
   agentToken: "dslyyvq"
   agentEncodingAesKey: "4ARC5PtVuUx4lu13LW5g2fHO6CcnwJ1nC2TJkDQWEeR"
 redis:
-  addr: "redis-14380.c326.us-east-1-3.ec2.cloud.redislabs.com:14380"
+  addr: "redis-13835.c62.us-east-1-4.ec2.redns.redis-cloud.com:13835"
   username: "default"
-  password: "cwNAFXh8PG4aoIj5caXH7BhXSlBMpgFa"
+  password: "FEK7iuAixRhjstZkJ2BBf8WCKUEUkTsf"
   db: "0"
 
 serviceAccount:
@@ -56,7 +56,7 @@ service:
   annotations: 
     # 外网clb
     #service.kubernetes.io/tke-existed-lbid: lb-b0etqk0h
-    service.kubernetes.io/tke-existed-lbid: lb-nedaprnh 
+    service.kubernetes.io/tke-existed-lbid: lb-gkpe1h1t
 
 ingress:
   enabled: false
